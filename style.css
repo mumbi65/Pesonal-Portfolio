@@ -1,0 +1,139 @@
+/*  */
+
+  
+
+header{
+    
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.heading-home{
+    background-color: black;
+}
+
+i{
+    padding: 10px;
+    
+}
+
+i:hover{
+    color: darkgray;
+}
+
+nav{
+    text-align: right;
+}
+
+.nav-home, ul, li{
+    color: white;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: larger;
+    color: darkgray;
+}
+
+ul li a:hover{
+    color: gray;
+}
+.body-home{
+    background-color:black;
+}
+    
+main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+}
+
+.home{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: black;
+    grid-gap: 30px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.home img{
+    object-fit: cover;
+    width: 500px;
+    height: 300px;
+}
+
+.content-home{
+    text-align: start;
+    font-size: 24px;
+    color: white;
+}
+
+.left{
+    background-size: cover;
+    font-weight: 900;
+    color:whitesmoke;
+}
+
+.education{
+    background-size: cover;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.interests{
+    background-size: cover;
+    font-weight: 900;
+    color: whitesmoke;
+}
+
+.icon-home{
+    color: whitesmoke;
+    text-align: center;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+form{
+    padding: 70px;
+    font-style: italic;
+}
+
+footer{
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.footer-home{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+}
+.copyright-home{
+    color: white;
+}
+
+.footer-about{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
